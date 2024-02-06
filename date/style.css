@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Mukta&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: 'Mukta', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.data{
+    width: 800px;
+    min-height: 500px;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+#btn{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin-inline: auto;
+    height: 100%;
+}
+.label{
+    text-align: center;
+}
+button{
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    
+}
+#btnYes{
+    background-color: #5DF642;
+    color: #fff;
+}
+#btnNo{
+    background-color: #FA1F05;
+    color: #fff;
+    position: absolute;
+    
+    
+}
